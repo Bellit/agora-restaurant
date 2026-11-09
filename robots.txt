@@ -1,0 +1,4 @@
+# Proyecto de demostración: no indexar.
+# En un proyecto real: "Allow: /" y la línea Sitemap con la URL del sitemap.xml
+User-agent: *
+Disallow: /

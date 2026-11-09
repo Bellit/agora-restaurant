@@ -1,0 +1,12 @@
+# Solo se publica la web. Fuera: herramientas, propuestas y notas internas
+herramientas/
+propuestas/
+README.md
+.claude/
+node_modules/
+.env
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
