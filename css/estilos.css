@@ -117,7 +117,7 @@ svg .ac { stroke: var(--arcilla); }
 .hero-video.on { opacity: 1; }
 .hero-mark { width: clamp(64px, 9vw, 92px); fill: none; stroke: currentColor; stroke-width: 1.2; }
 .hero-mark .ac { stroke: var(--arcilla-clara); }
-.hero h1 { font-size: clamp(76px, 16vw, 200px); line-height: .85; letter-spacing: .04em; }
+.hero h1 { font-size: clamp(76px, 16vw, 200px); line-height: 1; letter-spacing: .04em; padding: .06em 0 .26em; } /* padding: hueco para el acento y la cola de la «g» de Italiana */
 .scroll { position: absolute; z-index: 1; bottom: 28px; left: 50%; translate: -50% 0; width: 1px; height: 56px; overflow: hidden; }
 .scroll span { position: absolute; inset: 0; background: var(--lino); animation: drip 2.4s var(--ease) infinite; }
 .video-btn { position: absolute; z-index: 2; right: var(--gutter); bottom: 24px; display: grid; place-items: center; width: 44px; height: 44px;
